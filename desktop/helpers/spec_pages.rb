@@ -27,8 +27,8 @@ def input_password
 end  
 
 # mailbox page
-def inbox_link
-  return "[href='https://mail.google.com/mail/u/0/#inbox']"
+def inbox_primary
+  return "[aria-label='Primary']"
 end
 
 def inbox_logo

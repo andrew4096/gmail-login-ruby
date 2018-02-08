@@ -40,7 +40,7 @@ end
 # mailbox pages
 def check_mailbox
   expect(page).to have_selector(inbox_logo)
-  expect(page).to have_css(inbox_link)
+  expect(page).to have_css(inbox_primary)
 end
 
 # Cleanup steps

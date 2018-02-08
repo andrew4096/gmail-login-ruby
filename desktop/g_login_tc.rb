@@ -20,16 +20,16 @@ require './helpers/spec_steps.rb'
       end
 
       e.step "Enter customer login" do |s|
-        customer_login("andrew.lakhno")
+        customer_login("andrewbigbug")
       end
 
       e.step "Enter customer password" do |s|
-        set_password("Pa$$w0rd")
+        set_password("Uc82Y0yv7")
       end
         
       e.step "Check mailbox: Login success" do |s|
         check_mailbox
-        expect(page).to have_content("Andrew Lakhno")
+        expect(page).to have_content("Andrew")
       end
 
       e.step "Cleanup: Cleanup session and cookies" do |s|
