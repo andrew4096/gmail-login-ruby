@@ -1,0 +1,128 @@
+{
+  "uid" : "d887a7864425c1ac",
+  "name" : "Customer visit Gmail and do login TC#1 - Gmail customer login",
+  "title" : "Customer visit Gmail and do login TC#1 - Gmail customer login",
+  "time" : {
+    "start" : 1518080578064,
+    "stop" : 1518080584826,
+    "duration" : 6762
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : {
+    "message" : "undefined local variable or method `browser' for #<RSpec::ExampleGroups::CustomerVisitGmailAndDoLogin:0x00000004f32510>",
+    "stackTrace" : "C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.5.0/lib/rspec/matchers.rb:967:in `method_missing'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:747:in `method_missing'\r\nD:/CODE/gmail-login-ruby/desktop/helpers/spec_steps.rb:64:in `cleanup'\r\nD:/CODE/gmail-login-ruby/desktop/g_login_tc.rb:46:in `block (3 levels) in <top (required)>'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/allure-rspec-0.8.0/lib/allure-rspec/dsl.rb:51:in `block in __with_step'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/allure-rspec-0.8.0/lib/allure-rspec/dsl.rb:47:in `synchronize'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/allure-rspec-0.8.0/lib/allure-rspec/dsl.rb:47:in `__with_step'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/allure-rspec-0.8.0/lib/allure-rspec/dsl.rb:20:in `step'\r\nD:/CODE/gmail-login-ruby/desktop/g_login_tc.rb:45:in `block (2 levels) in <top (required)>'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:254:in `instance_exec'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:254:in `block in run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:496:in `block in with_around_and_singleton_context_hooks'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:453:in `block in with_around_example_hooks'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:464:in `block in run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:604:in `block in run_around_example_hooks_for'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:338:in `call'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-retry-0.5.4/lib/rspec/retry.rb:112:in `block in run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-retry-0.5.4/lib/rspec/retry.rb:101:in `loop'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-retry-0.5.4/lib/rspec/retry.rb:101:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-retry-0.5.4/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-retry-0.5.4/lib/rspec/retry.rb:30:in `block (2 levels) in setup'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:443:in `instance_exec'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:443:in `instance_exec'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:375:in `execute_with'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:606:in `block (2 levels) in run_around_example_hooks_for'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:338:in `call'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:607:in `run_around_example_hooks_for'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:464:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:453:in `with_around_example_hooks'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:496:in `with_around_and_singleton_context_hooks'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:251:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:627:in `block in run_examples'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:623:in `map'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:623:in `run_examples'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:589:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:113:in `block (3 levels) in run_specs'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:113:in `map'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:113:in `block (2 levels) in run_specs'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1835:in `with_suite_hooks'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:112:in `block in run_specs'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/reporter.rb:77:in `report'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:111:in `run_specs'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:87:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:71:in `run'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:45:in `invoke'\r\nC:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.4/exe/rspec:4:in `<top (required)>'\r\nC:/Ruby23-x64/bin/rspec:22:in `load'\r\nC:/Ruby23-x64/bin/rspec:22:in `<main>'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "98468d3fec36114b",
+    "name" : "Customer visit Gmail and do login",
+    "title" : "Customer visit Gmail and do login"
+  },
+  "steps" : [ {
+    "name" : "Check proper page",
+    "title" : "Check proper page",
+    "time" : {
+      "start" : 1518080579793,
+      "stop" : 1518080579944,
+      "duration" : 151
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Enter customer login",
+    "title" : "Enter customer login",
+    "time" : {
+      "start" : 1518080579945,
+      "stop" : 1518080580352,
+      "duration" : 407
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Enter customer password",
+    "title" : "Enter customer password",
+    "time" : {
+      "start" : 1518080580353,
+      "stop" : 1518080581096,
+      "duration" : 743
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Check mailbox",
+    "title" : "Check mailbox",
+    "time" : {
+      "start" : 1518080581096,
+      "stop" : 1518080581097,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Cleanup",
+    "title" : "Cleanup",
+    "time" : {
+      "start" : 1518080581097,
+      "stop" : 1518080581098,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-03CF3KF"
+  }, {
+    "name" : "feature",
+    "value" : "AS a customer I'm opening login page in browser and login ..."
+  }, {
+    "name" : "suite-name",
+    "value" : "Customer visit Gmail and do login"
+  }, {
+    "name" : "thread",
+    "value" : "20250560"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-title",
+    "value" : "Customer visit Gmail and do login"
+  }, {
+    "name" : "story",
+    "value" : "Login with correct data"
+  } ],
+  "parameters" : [ ]
+}

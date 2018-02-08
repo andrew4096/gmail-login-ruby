@@ -1,0 +1,125 @@
+{
+  "uid" : "ff4246c938f649a5",
+  "name" : "Customer visit Gmail and do login TC#1 - Gmail customer login",
+  "title" : "Customer visit Gmail and do login TC#1 - Gmail customer login",
+  "time" : {
+    "start" : 1518080809495,
+    "stop" : 1518080815777,
+    "duration" : 6282
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "81725da202137a73",
+    "name" : "Customer visit Gmail and do login",
+    "title" : "Customer visit Gmail and do login"
+  },
+  "steps" : [ {
+    "name" : "Check proper page",
+    "title" : "Check proper page",
+    "time" : {
+      "start" : 1518080814393,
+      "stop" : 1518080814553,
+      "duration" : 160
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Enter customer login",
+    "title" : "Enter customer login",
+    "time" : {
+      "start" : 1518080814556,
+      "stop" : 1518080814946,
+      "duration" : 390
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Enter customer password",
+    "title" : "Enter customer password",
+    "time" : {
+      "start" : 1518080814946,
+      "stop" : 1518080815617,
+      "duration" : 671
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Check mailbox",
+    "title" : "Check mailbox",
+    "time" : {
+      "start" : 1518080815618,
+      "stop" : 1518080815618,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Cleanup",
+    "title" : "Cleanup",
+    "time" : {
+      "start" : 1518080815618,
+      "stop" : 1518080815764,
+      "duration" : 146
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-03CF3KF"
+  }, {
+    "name" : "feature",
+    "value" : "AS a customer I'm opening login page in browser and login ..."
+  }, {
+    "name" : "suite-name",
+    "value" : "Customer visit Gmail and do login"
+  }, {
+    "name" : "thread",
+    "value" : "5570520"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-title",
+    "value" : "Customer visit Gmail and do login"
+  }, {
+    "name" : "story",
+    "value" : "Login with correct data"
+  } ],
+  "parameters" : [ ]
+}
