@@ -24,7 +24,7 @@ require './helpers/spec_steps.rb'
       end
 
       e.step "Enter customer password" do |s|
-        set_password("Pa$$w0rd`")
+        set_password("Pa$$w0rd")
       end
         
       e.step "Check mailbox: Login success" do |s|
