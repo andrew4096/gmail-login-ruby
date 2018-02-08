@@ -1,5 +1,6 @@
 require 'capybara'
 require 'selenium-webdriver'
+require 'webdriver-user-agent'
 require 'rspec/expectations'
 require 'capybara/rspec'
 require 'rspec-steps'
