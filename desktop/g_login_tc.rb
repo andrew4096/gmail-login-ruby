@@ -2,7 +2,7 @@ require './helpers/spec_helper.rb'
 require './helpers/spec_steps.rb'
 #require './helpers/config_helper.rb'
 
-  describe "Customer visit Gmail and do login",
+  describe "Customer visit Gmail and do login on desktop device /",
    :feature => "AS a customer I'm opening login page in browser and login ...",
     js: true, :order => :defined do
     
